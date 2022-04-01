@@ -26,8 +26,8 @@ unction Decode(fPort, bytes, variables) {
     }
     
     if(bytes.length >= 8) {
-      retValue.maxWert1 = bytes[8]+75;
-      if (retValue.maxWert1 < 75||retValue.maxWert1>330) delete retValue.maxWer1; 
+      retValue.maxWert1 = bytes[8]+45;
+      if (retValue.maxWert1 < 45||retValue.maxWert1>330) delete retValue.maxWer1; 
     }
 
     if(bytes.length >= 9) {
@@ -41,8 +41,8 @@ unction Decode(fPort, bytes, variables) {
     }
     
     if(bytes.length >= 11) {
-      retValue.maxWert2 = bytes[11]+75;
-      if (retValue.maxWert2 < 75||retValue.maxWert2>330) delete retValue.maxWert2; 
+      retValue.maxWert2 = bytes[11]+45;
+      if (retValue.maxWert2 < 45||retValue.maxWert2>330) delete retValue.maxWert2; 
     }
 
     if(bytes.length >= 12) {
@@ -56,8 +56,8 @@ unction Decode(fPort, bytes, variables) {
     }
     
     if(bytes.length >= 14) {
-      retValue.maxWert3 = bytes[14]+75;
-      if (retValue.maxWert3 < 75||retValue.maxWert3>330) delete retValue.maxWert3; 
+      retValue.maxWert3 = bytes[14]+45;
+      if (retValue.maxWert3 < 45||retValue.maxWert3>330) delete retValue.maxWert3; 
     }
 
     if(bytes.length >= 15) {
@@ -71,8 +71,8 @@ unction Decode(fPort, bytes, variables) {
     }
     
     if(bytes.length >= 17) {
-      retValue.maxWert4 = bytes[17]+75;
-      if (retValue.maxWert4 < 75||retValue.maxWert4>330) delete retValue.maxWert4; 
+      retValue.maxWert4 = bytes[17]+45;
+      if (retValue.maxWert4 < 45||retValue.maxWert4>330) delete retValue.maxWert4; 
     }
 
     if(bytes.length >= 18) {
