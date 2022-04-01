@@ -1,4 +1,4 @@
-unction Decode(fPort, bytes, variables) {
+function Decode(fPort, bytes, variables) {
   var retValue = {};
   
   if (fPort == 5) {
